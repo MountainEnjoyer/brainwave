@@ -1,4 +1,5 @@
 import { useLocation } from "react-router-dom";
+import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
 import { useState } from "react";
 import { brainwave } from "../assets";
@@ -14,12 +15,17 @@ const Header = () => {
   const toggleNavigation = () => {
     if (openNavigation) {
       setopenNavigation(false);
+      enablePageScroll();
     } else {
       setopenNavigation(true);
+      disablePageScroll();
     }
   };
 
   const handleClick = () => {
+    if (!openNavigation) return;
+
+    enablePageScroll();
     setopenNavigation(false);
   };
 
