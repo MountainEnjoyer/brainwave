@@ -3,6 +3,12 @@ import { brainwaveServices, brainwaveServicesIcons } from "../constants";
 import Generating from "./Generating";
 import Heading from "./Heading";
 import Section from "./Section";
+import {
+  PhotoChatMessage,
+  Gradient,
+  VideoBar,
+  VideoChatMessage,
+} from "./design/Services";
 
 const Services = () => {
   return (
@@ -43,7 +49,25 @@ const Services = () => {
             <Generating className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" />
           </div>
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
-            <div className="relative min-h-[39rem] border border-n-1/10 rounded-2xl overflow-hidden"></div>
+            <div className="relative min-h-[39rem] border border-n-1/10 rounded-2xl overflow-hidden">
+              <div className="absolute inset-0">
+                <img
+                  src={service2}
+                  className="h-full w-full object-cover"
+                  width={630}
+                  height={750}
+                  alt="robot"
+                />
+              </div>
+              <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
+                <h4 className="h4 mb-4">Photo Editing</h4>
+                <p className="body-2 mb-[3rem] text-n-3">
+                  Automatically enhance your photos using our AI app&apos;s
+                  photo editing feature. Try it now !
+                </p>
+              </div>
+              <PhotoChatMessage />
+            </div>
           </div>
         </div>
       </div>
