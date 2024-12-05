@@ -1,5 +1,5 @@
 # 🤖 BRAINWAVE
-Hey there !<br/>
+### Hey there !
 Welcome to this Repository, <br/>
 here you'll find the code of a Design Website RolePLaying an Ai Company selling their services.<br/>
 You'll find the live version [here](https://brainwave.zakary.xyz).<br/>
