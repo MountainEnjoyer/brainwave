@@ -1,8 +1,15 @@
-# React + Vite
+# 🤖 BRAINWAVE
+Hey there !<br/>
+Welcome to this Repository, <br/>
+here you'll find the code of a Design Website RolePLaying an Ai Company selling their services.
+You'll find the live version (here)(https://brainwave.zakary.xyz).<br/>
+It uses Vite, React, TailWindCSS and Gsap.<br/>
+Built with thiis (tutorial)(youtube.com)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+--
 
-Currently, two official plugins are available:
+# Some Screeshots 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![](https://github.com/MountainEnjoyer/brainwave/blob/main/Readme/HERO.png)
+![](https://github.com/MountainEnjoyer/brainwave/blob/main/Readme/CARDS.png)
+![](https://github.com/MountainEnjoyer/brainwave/blob/main/Readme/WHEEL.png)
