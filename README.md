@@ -6,7 +6,6 @@ You'll find the live version (here)(https://brainwave.zakary.xyz).<br/>
 It uses Vite, React, TailWindCSS and Gsap.<br/>
 Built with thiis (tutorial)(youtube.com)
 
---
 
 # Some Screeshots 
 
